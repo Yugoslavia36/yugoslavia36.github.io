@@ -1,5 +1,5 @@
 body { margin: 60px auto; width: 70%;background: #80ccff;}
-
+body{ padding:0;}#wrap{ width:1003px; margin:0 auto; overflow:hidden;}
 a { text-decoration: none; color: #c79797; }
 a:hover { text-decoration: underline; }
 
