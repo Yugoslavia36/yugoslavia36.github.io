@@ -1,21 +1,21 @@
 body { margin: 60px auto; width: 75%;background: #80ccff;}
 
-a { text-decoration: none; color: #c79797; }
+a { text-decoration: none; color: #845656; }
 a:hover { text-decoration: underline; }
 
-p.meta { color: #001dff; }
+p.meta { color: #1a2367; }
 p, ul { font-size: 1.3em; line-height: 1.4em; color: #ffffff; }
-p { font-family: 'Helvetica', 'Arial', 'Sans-Serif','Microsoft YaHei UI';}
+p { font-family: 'Helvetica','Microsoft YaHei UI','Cursive';}
 
 
-h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif','Microsoft YaHei UI';}
+h1, h2, h3, h4 { font-family:'Arial', 'Sans-Serif','Microsoft YaHei UI';}
 h1 { font-size: 2.5em;  }
 h2 { font-size: 2.3em; }
 h3 { font-size: 2em; }
 h4 { font-size: 1.7em; }
 
-nav ul { font-size: 1.8em; font-family: 'Helvetica', 'Arial', 'Sans-Serif','Microsoft YaHei UI';  list-style: none; font-weight: normal; box-shadow: 0px 2px 2px #888888; background: #0099ff}
-footer ul { font-size: 1.5em; font-family: 'Helvetica', 'Arial', 'Sans-Serif','Microsoft YaHei UI';  list-style: none; font-weight: normal; box-shadow: 0px 2px 2px #888888; background: #6893af}
+nav ul { font-size: 1.8em; font-family: 'Helvetica','Microsoft YaHei UI';  list-style: none; font-weight: normal; box-shadow: 0px 2px 2px #888888; background: #0099ff}
+footer ul { font-size: 1.5em; font-family: 'Helvetica','Microsoft YaHei UI';  list-style: none; font-weight: normal; box-shadow: 0px 2px 2px #888888; background: #6893af}
 nav ul li, footer ul li { display: inline; margin-right: 30px; }
 
 footer { border-top: 3px solid #d5d5d5; font-size: .8em; }
