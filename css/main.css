@@ -4,7 +4,7 @@ a { text-decoration: none; color: #c79797; }
 a:hover { text-decoration: underline; }
 
 p.meta { color: #001dff; }
-p, ul { font-size: 1.5em; line-height: 1.4em; color: #ffffff; }
+p, ul { font-size: 1.3em; line-height: 1.4em; color: #ffffff; }
 p { font-family: 'Helvetica', 'Arial', 'Sans-Serif','Microsoft YaHei UI';}
 
 
@@ -14,7 +14,8 @@ h2 { font-size: 2.7em; }
 h3 { font-size: 2.3em; }
 h4 { font-size: 1.9em; }
 
-nav ul, footer ul { font-size: 2em; font-family: 'Helvetica', 'Arial', 'Sans-Serif','Microsoft YaHei UI';  list-style: none; font-weight: bold; box-shadow: 0px 2px 2px #888888;background: #0099ff}#wrap{ width:1003px; margin:0 auto; overflow:hidden;}
+nav ul { font-size: 1.8em; font-family: 'Helvetica', 'Arial', 'Sans-Serif','Microsoft YaHei UI';  list-style: none; font-weight: bold; box-shadow: 0px 2px 2px #888888; background: #0099ff}
+footer ul { font-size: 1.5em; font-family: 'Helvetica', 'Arial', 'Sans-Serif','Microsoft YaHei UI';  list-style: none; font-weight: normal; box-shadow: 0px 2px 2px #888888; background: #6893af}
 nav ul li, footer ul li { display: inline; margin-right: 20px; }
 
 footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
