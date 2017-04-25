@@ -1,4 +1,4 @@
-body { margin: 60px auto; width: 70%;background: #80ccff;}
+body { margin: 60px auto; width: 75%;background: #80ccff;}
 
 a { text-decoration: none; color: #c79797; }
 a:hover { text-decoration: underline; }
@@ -9,16 +9,16 @@ p { font-family: 'Helvetica', 'Arial', 'Sans-Serif','Microsoft YaHei UI';}
 
 
 h1, h2, h3, h4 { font-family: 'Helvetica', 'Arial', 'Sans-Serif','Microsoft YaHei UI';}
-h1 { font-size: 3em;  }
-h2 { font-size: 2.7em; }
-h3 { font-size: 2.3em; }
-h4 { font-size: 1.9em; }
+h1 { font-size: 2.5em;  }
+h2 { font-size: 2.3em; }
+h3 { font-size: 2em; }
+h4 { font-size: 1.7em; }
 
 nav ul { font-size: 1.8em; font-family: 'Helvetica', 'Arial', 'Sans-Serif','Microsoft YaHei UI';  list-style: none; font-weight: bold; box-shadow: 0px 2px 2px #888888; background: #0099ff}
 footer ul { font-size: 1.5em; font-family: 'Helvetica', 'Arial', 'Sans-Serif','Microsoft YaHei UI';  list-style: none; font-weight: normal; box-shadow: 0px 2px 2px #888888; background: #6893af}
 nav ul li, footer ul li { display: inline; margin-right: 30px; }
 
-footer { border-top: 1px solid #d5d5d5; font-size: .8em; }
+footer { border-top: 3px solid #d5d5d5; font-size: .8em; }
 
 /* Blog */
 ul.posts { margin: 20px auto 40px; font-size: 1.5em; }
@@ -26,8 +26,8 @@ ul.posts li { list-style: none; }
 
 /* CV */
 .cv { margin: 0px 0px 60px; }
-.cv h1 { font-size: 3em; }
-.cv h2 { font-size: 2em; }
-.cv address, .cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif';color: #ffffff;  }
-.cv address, .cv p { font-size: 1.2em; }
+.cv h1 { font-size: 2.5em; }
+.cv h2 { font-size: 2.3em; }
+.cv address, .cv .download { font-family: 'Helvetica', 'Arial', 'Sans-Serif','Microsoft YaHei UI';color: #ffffff;  }
+.cv address, .cv p { font-size: 1.3em; }
 .cv .download { float: right; font-size: .8em; text-transform: uppercase; }
