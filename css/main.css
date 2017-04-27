@@ -6,7 +6,7 @@ a:hover { text-decoration: underline; }
 p.meta { color: #1a2367; }
 p, ul { font-size: 1.3em; line-height: 1.4em; color: #ffffff; }
 p { font-family: 'Helvetica','Microsoft YaHei UI','Cursive';}
-
+audio { width: 150px; height: 32px; align:center }
 
 h1, h2, h3, h4 { font-family:'Arial', 'Sans-Serif','Microsoft YaHei UI';}
 h1 { font-size: 2.5em;  }
