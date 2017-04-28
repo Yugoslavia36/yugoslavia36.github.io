@@ -1,13 +1,15 @@
 body { margin: 60px auto; width: 75%;background: #000;}
 
 a { text-decoration: none; color: #c7bfbf; }
+a.mus{ font-size: 1.5em; line-height: 1.4em; text-decoration: none; color: #c7bfbf; }
 a:hover { text-decoration: underline; }
-em { font-style:italic; color:#fff; font-size: 2em; }
+em { font-style:italic; color:#fff; font-size: 1.7em; }
 
 p.meta { color: #1a2367; }
 p, ul { font-size: 1.3em; line-height: 1.4em; color: #fff; }
 p { font-family: 'Helvetica','Microsoft YaHei UI','Cursive';}
 audio { width: 170px; height: 32px; margin-top: 10px;}
+p.mus { font-size: 1.5em; line-height: 1.4em; color: #fff; }
 
 h1, h2, h3, h4 { font-family:'Helvetica', 'Microsoft YaHei UI'; color:#76b900;}
 h1 { font-size: 2.5em;  }
