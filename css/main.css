@@ -5,7 +5,7 @@ a.mus{ font-size: 1em; line-height: 1.4em; text-decoration: none; color: #c7bfbf
 a:hover { text-decoration: underline; }
 em { font-style:italic; color:#fff; font-size: 1.7em; }
 
-p.meta { color: #1a2367; }
+p.meta { color: #32aabd; }
 p, ul { font-size: 1.3em; line-height: 1.4em; color: #fff; }
 p { font-family: 'Helvetica','Microsoft YaHei UI','Cursive';}
 audio { width: 170px; height: 32px; margin-top: 10px;}
