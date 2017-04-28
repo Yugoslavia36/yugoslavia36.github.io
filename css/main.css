@@ -2,6 +2,7 @@ body { margin: 60px auto; width: 75%;background: #000;}
 
 a { text-decoration: none; color: #c7bfbf; }
 a:hover { text-decoration: underline; }
+em { font-style:italic; color:#fff; }
 
 p.meta { color: #1a2367; }
 p, ul { font-size: 1.3em; line-height: 1.4em; color: #fff; }
