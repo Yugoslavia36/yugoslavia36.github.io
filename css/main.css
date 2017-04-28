@@ -1,7 +1,7 @@
 body { margin: 60px auto; width: 75%;background: #000;}
 
 a { text-decoration: none; color: #c7bfbf; }
-a.mus{ font-size: 1.5em; line-height: 1.4em; text-decoration: none; color: #c7bfbf; }
+a.mus{ font-size: 1em; line-height: 1.4em; text-decoration: none; color: #c7bfbf; }
 a:hover { text-decoration: underline; }
 em { font-style:italic; color:#fff; font-size: 1.7em; }
 
