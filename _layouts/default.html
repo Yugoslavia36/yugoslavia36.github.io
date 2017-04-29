@@ -2,35 +2,31 @@
 <html>
   
   <head>
-   
+    <title>{{ page.title }}</title>
     
     <link rel="stylesheet" type="text/css" href="/css/main.css">
     <link rel="shortcut icon" type="image/ico" href="../../../../../yugo.ico">
-    <link href="http://www.runoob.com/try/bootstrap/twitter-bootstrap-v2/docs/assets/css/bootstrap.css" rel="stylesheet"> 
   </head>
 
 
-  <body>
+   <body>
     <nav>
 <ul>
-  <div class="container"> 
-    <div class="row"> 
-        <div class="span8"> 
-            <ul class="nav nav-pills"> 
-                <li class="active"><a href="/">Home</a></li> 
-                <li><a href="/about">About</a></li> 
-                <li><a href="/cv">CV</a></li> 
-                <li><a href="/blog">blog</a></li> 
-                <li><a href="/music">Music</a></li> 
-                <li><audio controls="controls" >
-                  <source src="../../../../../audio/Nyan Cat Orchestrate.mp3" type="audio/mpeg" /></li>
-            </ul> 
-        </div> 
-    </div> 
-</div>
+<link rel="shortcut icon" type="image/ico" href="yugo.ico">
+<li><a href="/">Home</a></li>
+<li><a href="/about">About</a></li>
+<li><a href="/cv">CV</a></li>
+<li><a href="/blog">Blog</a></li>
+<li><a href="/music">Music</a></li>
+  <audio controls="controls" >
+  <source src="../../../../../audio/Nyan Cat Orchestrate.mp3" type="audio/mpeg" />
 </ul>
     </nav>
+<div class="container">
 
+  {{ content }}
+
+</div>
   
   <footer>
    <ul>
