@@ -5,7 +5,7 @@ a.mus{ font-size: 1em; line-height: 1.4em; text-decoration: none; color: #c7bfbf
 a:hover { text-decoration: underline; }
 em { font-style:italic; color:#fff; font-size: 1.7em; }
 
-a.btn-group a.button {
+.btn-group .button {
     background-color: #4CAF50; /* Green */
     border: none;
     color: white;
@@ -18,7 +18,7 @@ a.btn-group a.button {
     float: left;
 }
 
-a.btn-group a.button:hover {
+.btn-group .button:hover {
     background-color: #3e8e41;
 }
 
