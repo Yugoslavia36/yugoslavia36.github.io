@@ -6,7 +6,7 @@ a:hover { text-decoration: underline; }
 em { font-style:italic; color:#fff; font-size: 1.7em; }
 
 .btn-group .button {
-    background-color: #000; /* Green */
+    background-color: #000; /* noir */
     border: none;
     color: white;
     padding: 10px 32px;
@@ -16,9 +16,12 @@ em { font-style:italic; color:#fff; font-size: 1.7em; }
     font-size: 20px;
     cursor: pointer;
     float: left;
+    margin: 4px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
 }
 
-.btn-group .button:hover { background-color: #5b8c04;}
+.btn-group .button:hover { background-color: #5b8c04;
 
 p.meta { color: #32aabd; }
 p, ul { font-size: 1.3em; line-height: 1.4em; color: #fff; }
