@@ -18,14 +18,32 @@ title: Yugoslavia Alliance
 	<script>
 	var x = document.getElementById("demo");
 	function getLocation() {
-    	if (navigator.geolocation) {
-       	 navigator.geolocation.getCurrentPosition(showPosition);
-    	} else { 
-        	x.innerHTML = "貌似您的浏览器不支持JS啊2333";
-   	}
+	    if (navigator.geolocation) {
+		navigator.geolocation.getCurrentPosition(showPosition, showError);
+	    } else { 
+		x.innerHTML = "您的浏览器不支持定位。";
+	    }
 	}
+
 	function showPosition(position) {
-    	x.innerHTML = "纬度: " + position.coords.latitude + "<br>经度: " + position.coords.longitude;
+	    x.innerHTML = "纬度: " + position.coords.latitude + 
+	    "<br>经度: " + position.coords.longitude;
 	}
-</script>
+	function showError(error) {
+	    switch(error.code) {
+		case error.PERMISSION_DENIED:
+		    x.innerHTML = "您没有开放定位权限。"
+		    break;
+		case error.POSITION_UNAVAILABLE:
+		    x.innerHTML = "定位信息不可用。"
+		    break;
+		case error.TIMEOUT:
+		    x.innerHTML = "时间溢出。"
+		    break;
+		case error.UNKNOWN_ERROR:
+		    x.innerHTML = "未知错误。。。"
+		    break;
+	    }
+	}
+	</script>
 </div><!-- /.blurb -->
