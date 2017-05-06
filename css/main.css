@@ -16,6 +16,7 @@ em { font-style:italic; color:#fff; font-size: 1.7em; }
     font-size: 20px;
     cursor: pointer;
     float: left;
+    transition-duration: 0.4s;
 }
 
 .btn-group .button:hover {
