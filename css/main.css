@@ -18,9 +18,7 @@ em { font-style:italic; color:#fff; font-size: 1.7em; }
     float: left;
 }
 
-.btn-group .button:hover {
-    background-color: #5b8c04; box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
-}
+.btn-group .button:hover { background-color: #5b8c04;}
 
 p.meta { color: #32aabd; }
 p, ul { font-size: 1.3em; line-height: 1.4em; color: #fff; }
