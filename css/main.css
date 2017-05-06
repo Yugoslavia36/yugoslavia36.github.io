@@ -19,7 +19,7 @@ em { font-style:italic; color:#fff; font-size: 1.7em; }
 }
 
 .btn-group .button:hover {
-    background-color: #5b8c04;
+    background-color: #5b8c04; box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
 
 p.meta { color: #32aabd; }
