@@ -12,6 +12,20 @@ title: Yugoslavia Alliance
         <p>目前Yugoslavia活跃在<a target="_blank" href="http://www.infinideas.org/">新创无际</a>开发组和为<a target="_blank" href="https://www.luogu.org/">洛谷</a>出题。</p>
 	<p>本主页主要用于记载Yugoslavia的编程心得及日志。</p>
 	<p><a href="/about">关于我。。。</a></p>
-	<button type="button"onclick="document.getElementById('demo').innerHTML = Date()">点击以获得时间</button>
+
+	<button onclick="getLocation()">获得您的位置</button>
 	<p id="demo"></p>
+	<script>
+	var x = document.getElementById("demo");
+	function getLocation() {
+    	if (navigator.geolocation) {
+       	 navigator.geolocation.getCurrentPosition(showPosition);
+    	} else { 
+        	x.innerHTML = "貌似您的浏览器不支持JS啊2333";
+   	}
+	}
+	function showPosition(position) {
+    	x.innerHTML = "纬度: " + position.coords.latitude + "<br>经度: " + position.coords.longitude;
+	}
+</script>
 </div><!-- /.blurb -->
