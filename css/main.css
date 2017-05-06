@@ -9,17 +9,17 @@ em { font-style:italic; color:#fff; font-size: 1.7em; }
     background-color: #000; /* Green */
     border: none;
     color: white;
-    padding: 15px 32px;
+    padding: 10px 32px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: 30px;
     cursor: pointer;
     float: left;
 }
 
 .btn-group .button:hover {
-    background-color: #3e8e41;
+    background-color: #5b8c04;
 }
 
 p.meta { color: #32aabd; }
