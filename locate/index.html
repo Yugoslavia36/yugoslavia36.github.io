@@ -136,6 +136,53 @@ title: Google Lat&Lng Search
 	}
 </script>
 	<h1>双向查询地址</h1>
+			<button onclick="getLocation()">获得您的位置</button>
+	<p id="demo"></p>
+	<script>
+	var x = document.getElementById("demo");
+	function getLocation() {
+	    if (navigator.geolocation) {
+		navigator.geolocation.getCurrentPosition(showPosition, showError);
+	    } else { 
+		x.innerHTML = "您的浏览器不支持定位。";
+	    }
+	}
+
+	function showPosition(position) {
+	    x.innerHTML = "纬度: " + position.coords.latitude + 
+	    "<br>经度: " + position.coords.longitude;
+	}
+	function showError(error) {
+	    switch(error.code) {
+		case error.PERMISSION_DENIED:
+		    x.innerHTML = "您没有开放定位权限。"
+		    break;
+		case error.POSITION_UNAVAILABLE:
+		    x.innerHTML = "定位信息不可用。"
+		    break;
+		case error.TIMEOUT:
+		    x.innerHTML = "时间溢出。"
+		    break;
+		case error.UNKNOWN_ERROR:
+		    x.innerHTML = "未知错误。。。"
+		    break;
+	    }
+	}
+	</script>
+	<script>
+	(function(){
+	    var bp = document.createElement('script');
+	    var curProtocol = window.location.protocol.split(':')[0];
+	    if (curProtocol === 'https') {
+		bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
+	    }
+	    else {
+		bp.src = 'http://push.zhanzhang.baidu.com/push.js';
+	    }
+	    var s = document.getElementsByTagName("script")[0];
+	    s.parentNode.insertBefore(bp, s);
+	})();
+	</script>
 	<h2>解析地名</h2>
 	<p>请从下面输入你要解析的地名（每个地名隔一行）<br />
 		输入完成后按‘解析地名’按钮<br /></p>
