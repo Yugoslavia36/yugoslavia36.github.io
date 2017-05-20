@@ -13,52 +13,6 @@ title: Yugoslavia Alliance
 	<p>本主页主要用于记载Yugoslavia的编程心得及日志。</p>
 	<p><a href="/about">关于我。。。</a></p>
 
-	<button onclick="getLocation()">获得您的位置</button>
-	<p id="demo"></p>
-	<script>
-	var x = document.getElementById("demo");
-	function getLocation() {
-	    if (navigator.geolocation) {
-		navigator.geolocation.getCurrentPosition(showPosition, showError);
-	    } else { 
-		x.innerHTML = "您的浏览器不支持定位。";
-	    }
-	}
-
-	function showPosition(position) {
-	    x.innerHTML = "纬度: " + position.coords.latitude + 
-	    "<br>经度: " + position.coords.longitude;
-	}
-	function showError(error) {
-	    switch(error.code) {
-		case error.PERMISSION_DENIED:
-		    x.innerHTML = "您没有开放定位权限。"
-		    break;
-		case error.POSITION_UNAVAILABLE:
-		    x.innerHTML = "定位信息不可用。"
-		    break;
-		case error.TIMEOUT:
-		    x.innerHTML = "时间溢出。"
-		    break;
-		case error.UNKNOWN_ERROR:
-		    x.innerHTML = "未知错误。。。"
-		    break;
-	    }
-	}
-	</script>
-	<script>
-	(function(){
-	    var bp = document.createElement('script');
-	    var curProtocol = window.location.protocol.split(':')[0];
-	    if (curProtocol === 'https') {
-		bp.src = 'https://zz.bdstatic.com/linksubmit/push.js';        
-	    }
-	    else {
-		bp.src = 'http://push.zhanzhang.baidu.com/push.js';
-	    }
-	    var s = document.getElementsByTagName("script")[0];
-	    s.parentNode.insertBefore(bp, s);
-	})();
-	</script>
+	
 <script type="text/javascript" src="//ra.revolvermaps.com/0/0/8.js?i=0cjeom41tqq&amp;m=6&amp;c=fff600&amp;cr1=ff8a00&amp;f=ubuntu&amp;l=33" async="async"></script>
 </div><!-- /.blurb -->
