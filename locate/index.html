@@ -1,12 +1,13 @@
-<!DOCTYPE html>
-<html>
-<head>
+---
+layout: default
+title: Lat&Lng
+---
+		<link rel="shortcut icon" type="image/ico" href="yugo.ico">
+		<div class="locate">
+
 <meta charset="UTF-8">
 <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyByy2IyWRDB7rF-CUD1DaPWOPHQ68PMgf8&sensor=false&libraries=places" type="text/javascript"></script>
 <title>google map 经纬度批量在线查询工具 google map查询地名返回经纬度</title>
-<meta name="author" content="yanue" />
-<meta name="copyright" content="powered by yanue" />
-<link rel="site" href="http://map.yanue.net/" />
 <script type="text/javascript">
 	window.onload = function() {
 		var geo = new  geoEach();
@@ -58,12 +59,12 @@
 	function  geoEach() {
 		//初始化地图
 		 geoEach.map = new google.maps.Map(document.getElementById("map_canvas"),{
-					center : new google.maps.LatLng(-37.843, 145.26800000000003),
+					center : new google.maps.LatLng(51.5134339, -0.18380100000001676),
 					zoom : 8,
 					mapTypeId : google.maps.MapTypeId.ROADMAP
 		});
 		//添加一个marker
-		 geoEach.marker = new google.maps.Marker({map:  geoEach.map,position: new google.maps.LatLng(-37.843, 145.26800000000003)});
+		 geoEach.marker = new google.maps.Marker({map:  geoEach.map,position: new google.maps.LatLng(51.5134339, -0.18380100000001676)});
 		//实例化Geocoder服务
 		 geoEach.geocoder = new google.maps.Geocoder();
 	}
@@ -136,8 +137,7 @@
 		}
 	}
 </script>
-</head>
-<body>
+
 	<h2>批量解析地名</h2>
 	请从下面输入你要解析的地名（每个地名隔一行）<br />
 	输入完成后按‘批量解析’按钮<br />
@@ -147,9 +147,9 @@
 	请从下面输入你要解析的经纬度（每个经纬度隔一行）格式（纬度lat,经度lng）<br />
 	输入完成后按‘批量解析’按钮<br />
 	<h2>批量解析经纬度</h2>
-	<textarea name="" id="latLngs" cols="30" rows="5">-37.843, 145.26800000000003</textarea>
+	<textarea name="" id="latLngs" cols="30" rows="5">51.5134339, -0.18380100000001676</textarea>
 	<button id='toAddressBtn'>解析经纬度</button>
 	<div id="map_canvas" style='width: 300px; height: 200px;'></div>
 	<div id="showResults"></div>
-</body>
-</html>
+
+</div>
